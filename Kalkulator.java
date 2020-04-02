@@ -7,15 +7,15 @@ import java.util.Scanner;
 class Kalkulator 
 {
 	public static void main(String [] Args) {
-		int liczba1;
-		int liczba2;
+		double liczba1;
+		double liczba2;
 		char znak;
 		Scanner wejscie = new Scanner(System.in);
 		
 		System.out.println("Podaj pierwszą liczbę: " );
-		liczba1 = wejscie.nextInt();
+		liczba1 = wejscie.nextDouble();
 		System.out.println("Podaj drugą liczbę: ");
-		liczba2 = wejscie.nextInt();
+		liczba2 = wejscie.nextDouble();
 		
 		System.out.println("Aby dodać wciśnij + ");
 		System.out.println("Aby odjąć wciśnij - ");
